@@ -15,9 +15,6 @@ let BUILD_DIR = 'dist' // 构建目录
 let ENTRY_FILE = './node.txt' // SSD入口
 let str = readSync(ENTRY_FILE)
 
-let checker = item => {
-    return item => item.includes('ssd://') || item.includes('ss"//')
-}
 
 // Map all the item include `ssd://` and serialize those items
 
